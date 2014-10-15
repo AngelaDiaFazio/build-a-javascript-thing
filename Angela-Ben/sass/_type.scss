@@ -1,0 +1,19 @@
+h1 {
+  font: 100% $font-stack;
+  color: $primary-color;
+  p {
+    color: $base-font-dark-color;
+    font-family: $font-base;
+  }
+}
+a {
+  color: $primary-color;
+}
+.by-line {
+  font-size: 1.3em;
+  color: $tertiary-color;
+  margin-left: 10px;
+  padding: 1rem 0 .5rem 0;
+}
+
+

@@ -1,0 +1,22 @@
+.aside-post {
+  color: yellow;
+  width: 90%;
+  border-bottom: 1px solid $base-font-dark-color;
+  margin: 0 0 5px 10px;
+  @extend %aside-padding;
+}
+.aside-post__title {
+  text-transform: uppercase;
+  color: $primary-color;
+  @extend %aside-padding;
+}
+.aside-post__author {
+  font-size: 1.6em;
+  font-weight: bold;
+  @extend %aside-padding;
+}
+
+#addCost {
+    color: orange;
+  }
+

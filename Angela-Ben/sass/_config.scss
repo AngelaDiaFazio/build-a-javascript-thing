@@ -1,0 +1,20 @@
+$font-stack: Optima, sans-serif;
+$font-base:"Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+//Colors
+$primary-color: #2EE0AE; //bright green
+$secondary-color: #C7E2C3; //pastel green
+$tertiary-color: #664C4B; //walnut
+$base-font-dark-color: #434545; // deep grey
+$base-font-light-color: #FAFEFF; // off white
+$body-light: #F8F4C7; //beige
+$body-dark: #E3D0A6; //camel
+$button: #FFF560; // yellow
+$link: #664C4B; //walnut
+// mixin
+@mixin spacer() {
+  padding: 5px 0 15px 0;
+}
+// placeholder
+%aside-padding {
+  padding-top: 1rem;
+}

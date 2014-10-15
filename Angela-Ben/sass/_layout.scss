@@ -1,0 +1,41 @@
+/* Layout */
+
+header {
+  padding: 12px;
+  text-align: left;
+  background-color: $secondary-color;
+  margin-bottom: 5rem;
+}
+.main-title {
+  font-family: $font-base;
+  font-size: 6em;
+  color: $tertiary-color;
+}
+.inline-navbar {
+  list-style: none;
+  li {
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 2em;
+  }
+}
+.navbar__subtitle {
+  color: $tertiary-color;
+  font-size: 2rem;
+  font-family: $font-stack;
+}
+.upper-padding {
+  padding-top: 5rem;
+}
+.footer-nav {
+  text-align: center;
+  padding-top: 35px;
+  color: $base-font-light-color;
+  font-size: .7em;
+}
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: $secondary-color;
+  color: $base-font-light-color;
+}

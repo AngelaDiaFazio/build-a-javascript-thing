@@ -1,0 +1,13 @@
+.bkg-color {
+  background-image: url(../fabric_plaid.png);
+  background-color: $body-light;
+  background-blend-mode: multiply;
+}
+.bkg-color-feature-2 {
+  background-image: url(../fabric_plaid.png);
+  background-color: $body-dark;
+  background-blend-mode: multiply;
+}
+.wrapper {
+  background-color: white;
+}

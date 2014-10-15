@@ -1,0 +1,18 @@
+/* Module */
+
+.feature__main-image {
+  width: 95%;
+  margin-left: 1rem;
+  border: 10px solid white;
+}
+.feature__title {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 10px 6px 8px 12px;
+}
+.feature__teaser {
+  margin: 0px 6px 8px 12px;
+  p & {
+    margin-bottom: 5rem;
+  }
+}

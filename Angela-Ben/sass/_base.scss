@@ -1,0 +1,16 @@
+/* Base */
+
+html {
+  color: $base-font-dark-color;
+  margin: 0 auto;
+  font-family: $font-stack;
+  font-size: 1em;
+}
+p {
+  font-family: $font-base;
+  color: $tertiary-color;
+  font-size: 1.2rem;
+}
+.hidden {
+  display: none;
+}

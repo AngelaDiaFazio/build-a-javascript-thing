@@ -1,0 +1,11 @@
+@import "reset";
+@import "config";
+@import "base";
+@import "type";
+@import "colors";
+@import "layout";
+@import "responsive";
+
+
+// calls in the components scss files
+@import "components/manifest";
